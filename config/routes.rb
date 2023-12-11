@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
   resources :ideas
-  root "hello#index"
+root "pages#homepage"
 end
