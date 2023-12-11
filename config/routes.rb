@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
   resources :ideas
-root "pages#homepage"
+root 'pages#homepage'
 end
