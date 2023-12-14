@@ -33,6 +33,9 @@ Rails.application.configure do
     config.cache_store = :null_store
   end
 
+  # 勉強用のためクロスオリジンの検証を無効にする
+  config.action_controller.forgery_protection_origin_check = false
+  
   # Store uploaded files on the local file system (see config/storage.yml for options).
   config.active_storage.service = :local
 
