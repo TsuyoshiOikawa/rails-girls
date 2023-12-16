@@ -87,6 +87,9 @@ Rails.application.configure do
     logger.formatter = config.log_formatter
     config.logger    = ActiveSupport::TaggedLogging.new(logger)
   end
+  
+  # 勉強用のためクロスオリジンの検証を無効にする
+  config.action_controller.forgery_protection_origin_check = false
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
