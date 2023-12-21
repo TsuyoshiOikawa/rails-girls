@@ -72,6 +72,7 @@ group :development do
   # gem "spring"
 
   gem "hotwire-livereload", "~> 1.2"
+  gem 'rspec-rails', '~> 3.5'
 end
 
 group :test do
@@ -79,5 +80,6 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
   gem "webdrivers"
+  gem 'rspec-rails', '~> 3.5'
 end
 
