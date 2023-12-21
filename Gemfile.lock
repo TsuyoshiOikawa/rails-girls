@@ -318,6 +318,7 @@ DEPENDENCIES
   hotwire-livereload (~> 1.2)
   importmap-rails
   jbuilder
+  mini_magick
   pg
   puma (~> 5.6)
   rails (~> 7.0.8)

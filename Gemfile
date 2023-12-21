@@ -18,6 +18,7 @@ group :production do
   gem "pg"
 end
 gem "carrierwave"
+gem "mini_magick"
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.6"
 
@@ -79,3 +80,4 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
